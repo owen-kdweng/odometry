@@ -35,7 +35,8 @@ This library estimates robot **pose (x, y, θ)** and **velocity** using encoder 
 mkdir build
 cd build
 cmake ..
-cmake --build .
+make
+./basic_example
 ```
 
 ---
